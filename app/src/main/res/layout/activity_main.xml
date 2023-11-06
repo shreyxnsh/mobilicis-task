@@ -16,7 +16,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/poppinsemibold"
-        android:text="Device Info"
+        android:text="Device Diagnostics"
         android:textColor="#000000"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,18 +24,19 @@
 
     <TextView
         android:id="@+id/desc"
-        android:paddingLeft="24dp"
-        android:text="Select the category you want to know about"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
+        android:text="Select the features you want to test."
+        android:textAlignment="viewStart"
         android:textColor="#B5B9B5"
         android:textSize="18sp"
-        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:paddingRight="12dp"
+        app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <LinearLayout
         android:layout_marginTop="16dp"
@@ -70,7 +71,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/battery"
+                        android:src="@drawable/ic_battery"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
@@ -95,7 +96,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/phone"
+                        android:src="@drawable/ic_device"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
@@ -119,7 +120,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/camera"
+                        android:src="@drawable/ic_camera"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
@@ -143,7 +144,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/cloud"
+                        android:src="@drawable/ic_storage"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
@@ -168,7 +169,7 @@
 
                     <ImageView
                         android:padding="2dp"
-                        android:src="@drawable/cpu"
+                        android:src="@drawable/ic_cpu"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
@@ -192,7 +193,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/kinect"
+                        android:src="@drawable/ic_sensor"
                         android:layout_width="40dp"
                         android:layout_height="40dp"/>
 
